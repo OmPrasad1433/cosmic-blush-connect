@@ -31,18 +31,17 @@ const HeroSection = () => {
           {/* Main headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-playfair mb-6 leading-tight">
             <span className="bg-gradient-romantic bg-clip-text text-transparent">
-              Find Your
+              Welcome to 
             </span>
             <br />
             <span className="text-chocolate-cosmos">
-              Perfect Match
+              Santal community
             </span>
           </h1>
           
           {/* Subheadline */}
           <p className="text-xl md:text-2xl font-inter text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Connect with meaningful people through video chat, instant messaging, and smart matching. 
-            Your love story starts here.
+            Discover meaningful connections and find your perfect match in a safe, vibrant community. Join us today and start your romantic journey!
           </p>
 
           {/* Stats */}
