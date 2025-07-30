@@ -29,7 +29,7 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Main headline */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-playfair mb-6 leading-tight">
             <span className="bg-gradient-romantic bg-clip-text text-transparent">
               Find Your
             </span>
@@ -40,7 +40,7 @@ const HeroSection = () => {
           </h1>
           
           {/* Subheadline */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl font-inter text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             Connect with meaningful people through video chat, instant messaging, and smart matching. 
             Your love story starts here.
           </p>
