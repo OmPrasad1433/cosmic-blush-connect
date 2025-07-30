@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Heart, Menu, User } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -34,13 +35,17 @@ const Header = () => {
 
         {/* Auth Buttons */}
         <div className="flex items-center gap-3">
-          <Button variant="soft" size="sm" className="hidden sm:flex">
-            <User className="w-4 h-4" />
-            Sign In
-          </Button>
-          <Button variant="romantic" size="sm">
-            Join Now
-          </Button>
+          <Link to="/login">
+            <Button variant="soft" size="sm" className="hidden sm:flex">
+              <User className="w-4 h-4" />
+              Sign In
+            </Button>
+          </Link>
+          <Link to="/signup">
+            <Button variant="romantic" size="sm">
+              Join Now
+            </Button>
+          </Link>
           <Button variant="ghost" size="icon" className="md:hidden">
             <Menu className="w-5 h-5" />
           </Button>
