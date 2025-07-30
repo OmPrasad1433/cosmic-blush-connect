@@ -34,22 +34,25 @@ export interface AdminStats {
 export const demoUsers: User[] = [
   {
     id: "1",
-    name: "Emma Watson",
+    name: "Rani Panda",
     age: 28,
-    location: "New York, NY",
+    location: "Malisahi, Bhubaneswar, India",
     bio: "Love hiking, reading, and discovering new coffee shops. Looking for someone who shares my passion for adventure!",
-    images: ["https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400", "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400"],
-    interests: ["Hiking", "Reading", "Coffee", "Travel"],
+    images: [
+      "https://1.bp.blogspot.com/-x2qDZQ_pihE/YWL0DQ7cqTI/AAAAAAAAK6Q/P3PJcbumf7Anvft5KO6XMlPKI5njJF7UgCLcBGAsYHQ/s16000/Rani%2BPanda%2BWiki%252C%2BBiography%252C%2BHeight%252C%2BWeight%252C%2BAge%252C%2BHusband%252C%2BFamily%252C%2BWallpapers.jpg",
+      "https://1.bp.blogspot.com/-x2qDZQ_pihE/YWL0DQ7cqTI/AAAAAAAAK6Q/P3PJcbumf7Anvft5KO6XMlPKI5njJF7UgCLcBGAsYHQ/s16000/Rani%2BPanda%2BWiki%252C%2BBiography%252C%2BHeight%252C%2BWeight%252C%2BAge%252C%2BHusband%252C%2BFamily%252C%2BWallpapers.jpg"
+    ],
+    interests: ["sex", "Hiking", "Reading", "Coffee", "Travel"],
     isOnline: true,
     verified: true
   },
   {
     id: "2",
-    name: "James Rodriguez",
+    name: "Jonny Sines",
     age: 32,
-    location: "Los Angeles, CA",
+    location: "Los Angeles, CA, USA",
     bio: "Photographer and dog lover. Always looking for the perfect shot and the perfect companion to share life's moments with.",
-    images: ["https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400", "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400"],
+    images: ["https://tse1.mm.bing.net/th/id/OIP.brmotDoTzzPa59L82D2vigHaHa?pid=Api&P=0&h=180"],
     interests: ["Photography", "Dogs", "Art", "Music"],
     isOnline: false,
     lastSeen: "2 hours ago",
@@ -57,11 +60,11 @@ export const demoUsers: User[] = [
   },
   {
     id: "3",
-    name: "Sofia Chen",
+    name: "Mia Khalifa",
     age: 26,
-    location: "San Francisco, CA",
+    location: "San Francisco, CA, USA",
     bio: "Tech enthusiast by day, yoga instructor by evening. Seeking balance in life and love.",
-    images: ["https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400"],
+    images: ["https://tse2.mm.bing.net/th/id/OIP.TiZcfrAwC5Y9TqHPkA7RqgHaIO?pid=Api&P=0&h=180"],
     interests: ["Yoga", "Technology", "Meditation", "Cooking"],
     isOnline: true,
     verified: false
@@ -70,13 +73,64 @@ export const demoUsers: User[] = [
     id: "4",
     name: "Michael Thompson",
     age: 30,
-    location: "Chicago, IL",
+    location: "Chicago, IL, USA",
     bio: "Chef with a passion for creating amazing experiences. Let's cook something beautiful together!",
     images: ["https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400"],
     interests: ["Cooking", "Wine", "Travel", "Music"],
     isOnline: false,
     lastSeen: "1 day ago",
     verified: true
+  },
+
+  // New demo users added below:
+  {
+    id: "5",
+    name: "Aisha Khan",
+    age: 24,
+    location: "Mumbai, Maharashtra, India",
+    bio: "Bearer of chai and books. I love exploring hidden libraries and cozy cafes. Looking for someone to share stories and silence with.",
+    images: [
+      "https://randomuser.me/api/portraits/women/65.jpg",
+      "https://randomuser.me/api/portraits/med/women/65.jpg"
+    ],
+    interests: ["Reading", "Coffee", "Poetry", "Travel"],
+    isOnline: true,
+    verified: false
+  },
+  {
+    id: "6",
+    name: "Luca Rossi",
+    age: 29,
+    location: "Rome, Italy",
+    bio: "Globetrotter, foodie, and amateur guitarist. Let’s share spaghetti and songs under the Italian sun.",
+    images: ["https://randomuser.me/api/portraits/men/32.jpg"],
+    interests: ["Music", "Food", "Travel", "Photography"],
+    isOnline: false,
+    lastSeen: "3 hours ago",
+    verified: true
+  },
+  {
+    id: "7",
+    name: "Sofia Lopez",
+    age: 27,
+    location: "Barcelona, Spain",
+    bio: "Art curator by day, salsa dancer by night. Seeking someone who can twirl me on the dance floor.",
+    images: ["https://randomuser.me/api/portraits/women/22.jpg"],
+    interests: ["Art", "Dance", "Travel", "Culture"],
+    isOnline: true,
+    verified: true
+  },
+  {
+    id: "8",
+    name: "Daniel Chen",
+    age: 31,
+    location: "Singapore",
+    bio: "Engineer and amateur barista. I believe the best conversations happen over latte art and long walks.",
+    images: ["https://randomuser.me/api/portraits/men/45.jpg"],
+    interests: ["Coffee", "Technology", "Walking", "Gaming"],
+    isOnline: false,
+    lastSeen: "30 minutes ago",
+    verified: false
   }
 ];
 
