@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Base tokens (HSL) */
+  --background: 0 0% 100%;
+  --foreground: 240 10% 3.9%;
+  --primary: 338 77% 21%; /* deep romantic red (#800f2f approx) */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 335 66% 86%;
+  --secondary-foreground: 338 77% 21%;
+  --accent: 350 100% 70%; /* bright pink */
+  --accent-foreground: 338 77% 18%;
+  --muted: 0 0% 96%;
+  --muted-foreground: 240 4% 46%;
+  --border: 240 5.9% 90%;
+  --input: 240 5.9% 90%;
+  --ring: 338 77% 40%;
+
+  /* Special palette */
+  --chocolate-cosmos: 338 77% 21%;
+  --claret: 345 80% 30%;
+  --amaranth-purple: 330 60% 32%;
+  --rose-red: 350 90% 45%;
+  --bright-pink: 350 100% 70%;
+  --salmon-pink: 354 100% 76%;
+  --cherry-blossom: 340 100% 88%;
+
+  /* Gradients/Shadows */
+  --gradient-romantic: linear-gradient(135deg, hsl(var(--claret)), hsl(var(--bright-pink)) 60%, hsl(var(--cherry-blossom)) 100%);
+  --shadow-romantic: 0 10px 30px -10px hsl(var(--claret) / 0.35);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: 240 10% 5%;
+    --foreground: 0 0% 98%;
+    --muted: 240 6% 12%;
+    --muted-foreground: 240 5% 65%;
+    --border: 240 6% 12%;
+    --input: 240 6% 12%;
+    --ring: 350 100% 70%;
+  }
+}
+
+* { @apply border-border; }
+html, body { height: 100%; }
+body { @apply bg-background text-foreground; }
+
+.container { @apply mx-auto px-4; }
+
+.btn { @apply inline-flex items-center justify-center rounded-md px-4 py-2 font-medium transition-colors; }
+.btn-romantic { @apply bg-gradient-romantic text-white shadow-romantic hover:opacity-95; }
+.btn-soft { @apply bg-cherry-blossom text-claret hover:bg-salmon-pink; }
+.btn-ghost { @apply bg-transparent hover:bg-muted; }
+
+.header-blur { @apply bg-background/80 backdrop-blur-md border-b; border-color: hsl(var(--salmon-pink) / 0.2); }
