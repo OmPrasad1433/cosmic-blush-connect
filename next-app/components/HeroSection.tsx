@@ -48,11 +48,11 @@ const HeroSection: React.FC = () => {
         {/* Main headline with better typography */}
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-playfair font-extrabold mb-8 leading-tight">
           <span className="bg-gradient-romantic bg-clip-text text-transparent drop-shadow-lg">
-            Find Your
+            Welcome to
           </span>
           <br />
           <span className="text-chocolate-cosmos drop-shadow-md">
-            Perfect Match
+            Santal community
           </span>
         </h1>
 
